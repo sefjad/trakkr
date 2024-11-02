@@ -60,7 +60,7 @@ def get_transactions(wallet, limit=10):
 
 def get_top_tokens():
     """Fetch top-performing tokens from Dexscreener."""
-    url = "https://api.dexscreener.com/token-boosts/latest/v1"  # Adjust with Dexscreener's actual API
+    url = "https://api.dexscreener.com/token-boosts/latest/v1" 
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
