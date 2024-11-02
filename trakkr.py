@@ -13,7 +13,11 @@ dune = DuneClient(DUNE_API_KEY)
 
 # List of wallets to track
 WALLETS = [
-    "3wr7N8qQmGBz8jiicoC3634QCuYfmjLjyAidg9YnUaFq" 
+    "3wr7N8qQmGBz8jiicoC3634QCuYfmjLjyAidg9YnUaFq",
+    "3wr7N8qQmGBz8jiicoC3634QCuYfmjLjyAidg9YnUaFq",
+    "6rXTgb8dp7FaavXt11qjRd9KzGHzCJtgBxupo9phS4Sg",
+    "3dNTS4e2pwtQsTLgdKNm3p6vVijAfM6c57EajDY4zrpt",
+    "4kWbtFRCoJFgbMpFqBzKYN3MsFcUwaL8t1ysB6ADq2ye"
 ]
 
 # Solana RPC endpoint
